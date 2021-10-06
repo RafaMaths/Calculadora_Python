@@ -6,6 +6,8 @@ from tkinter import ttk
 
 backgroundColor = "#0d0901"
 frameColor = "#524f49"
+operationButton = "#f27130"
+numberBotton = "#ccc8c6"
 
 # declara janela
 window = Tk()
@@ -15,9 +17,13 @@ window.title("Calculadora")
 window.geometry("400x500")
 window.config(bg = backgroundColor)
 
-# definicao de duas janelas: display com cálculo e botões
-frame_window = Frame(window, width = "400", height = "100", bg = frameColor)
-frame_window.grid(row = 0, column = 0)
+# frame de calculo
+frameHead = Frame(window, width = "400", height = "100")
+frameHead.grid(row = 0, column = 0)
+
+# frame de botões
+frameBody = Frame(window, width = "400", height = "400")
+frameBody.grid(row = 1, column = 0) 
 
 # executa eventos da janela
 window.mainloop()
