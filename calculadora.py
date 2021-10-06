@@ -19,7 +19,5 @@ window.config(bg = backgroundColor)
 frame_window = Frame(window, width = "400", height = "100", bg = frameColor)
 frame_window.grid(row = 0, column = 0)
 
-
-
 # executa eventos da janela
 window.mainloop()
