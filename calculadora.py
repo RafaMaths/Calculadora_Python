@@ -36,6 +36,7 @@ module.place(x = 118, y = 0)
 
 division = Button(frameBody, text = "/", width = 5, height = 2, bg = orange, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
 division.place(x = 177, y = 0)
+
 #line2
 seven = Button(frameBody, text = "7", width = 5, height= 2, bg = gray, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
 seven.place(x = 0, y = 52)
@@ -48,6 +49,20 @@ nine.place(x = 118, y = 52)
 
 mult = Button(frameBody, text = "X", width = 5, height = 2, bg = orange, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
 mult.place(x = 177, y = 52)
+
+#line3
+six = Button(frameBody, text = "6", width = 5, height= 2, bg = gray, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+six.place(x = 0, y = 104)
+
+five = Button(frameBody, text = "5", width = 5, height = 2, bg = gray, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+five.place(x = 60, y = 104)
+
+four = Button(frameBody, text = "4", width = 5, height = 2, bg = gray, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+four.place(x = 118, y = 104)
+
+subt = Button(frameBody, text = "-", width = 5, height = 2, bg = orange, fg = black, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+subt.place(x = 177, y = 104)
+
 
 
 
